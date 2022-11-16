@@ -1,0 +1,54 @@
+{
+    "posts": [
+        {
+            "title": "Post One",
+            "body": "This is the first post.",
+            "publishedAt": "2022-11-01",
+            "id": 1
+        },
+        {
+            "title": "Post Two",
+            "body": "This is the second post.",
+            "publishedAt": "2022-11-02",
+            "id": 2
+        },
+        {
+            "title": "Post Three",
+            "body": "This is the third post.",
+            "publishedAt": "2022-11-03",
+            "id": 3
+        },
+        {
+            "title": "Post Five",
+            "body": "This is the fifth post's body.",
+            "publishedAt": "2022-11-05",
+            "id": 5
+        }
+    ],
+    "users": [
+        {
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "password": "john123",
+            "id": 1
+        },
+        {
+            "name": "Jane Smith",
+            "email": "Jane@gmail.com",
+            "password": "jane456",
+            "id": 2
+        },
+        {
+            "name": "Charlie Lee",
+            "email": "charlie@gmail.com",
+            "password": "charlie123",
+            "id": 3
+        },
+        {
+            "name": "Pete Mitchell",
+            "email": "pete@gmail.com",
+            "password": "pete123",
+            "id": 5
+        }
+    ]
+}

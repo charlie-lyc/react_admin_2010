@@ -1,0 +1,17 @@
+{
+  "name": "react_admin_2010",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 3001 --middlewares ./rangeMiddleware.js",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "json-server": "^0.17.1"
+  }
+}
